@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # 0-square.py by Frempong Daniel
-
+'''defines a square'''
 
 class Square:
 	''' a class Square that defines a square'''
@@ -8,6 +8,5 @@ class Square:
 	def __init__(self, size):
 		'''initializes the square class
 		   Args: size - represents the size of the square'''
-
 
 		self.__size = size
