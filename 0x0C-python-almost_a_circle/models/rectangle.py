@@ -168,8 +168,8 @@ class Rectangle(Base):
         """
             returns the dictionary repr of a rect
         """
-        dict_order = ['x', 'y', 'id', 'height', 'width']
+	dict_order = ['x', 'y', 'id', 'height', 'width']
 	dict_attrs = {}
 	for key in dict_attrs[key] = getattr(self, key)
-	    dict_attrs[key] = getattr(self, key)
+		dict_attrs[key] = getattr(self, key)
 	return dict_attrs
