@@ -11,6 +11,12 @@ class Rectangle:
 	def __init__(self, width=0, height=0):
 		"""
 		this method initializes the class
+		Args:
+			width: represents the width of the rectangle
+			height: represents the height of the rectangle
+		Raises:
+			TypeError: if the value is not an integer
+			ValueError: if the value is negative
 		"""
 	self.width = width
 	self.height = height
