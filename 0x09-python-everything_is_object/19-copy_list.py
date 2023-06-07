@@ -11,5 +11,5 @@ def copy_list(l):
     Args:
         l = list to be copied
     """
-    new_list = list(l)
+    new_list = l.copy()
     return new_list
