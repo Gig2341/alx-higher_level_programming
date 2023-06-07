@@ -20,7 +20,6 @@ class Rectangle:
         TypeError: if the value is not an integer
         ValueError: if the value is negative
     """
-		
         self.height = height
         self.width = width
 
