@@ -1,5 +1,9 @@
 #!/usr/bin/python3
 
+"""
+this module divides a matrix
+"""
+
 def matrix_divided(matrix, div):
 	"""
 	"""
