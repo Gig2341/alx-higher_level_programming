@@ -7,7 +7,7 @@ Usage
 =====
 
 Importing function from the module:
-    >>> add_integer = __import__(0-add_integer).add_integer
+    >>> add_integer = __import__('0-add_integer').add_integer
 
 Adding two positive integers (a = 1 and b = 1)
     >>> add_integer(1, 1)
