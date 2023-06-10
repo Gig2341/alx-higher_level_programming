@@ -30,7 +30,7 @@ def matrix_divided(matrix, div):
             raise TypeError("Each row of the matrix must have the same size")
         for column in row:
             if type(column) is not int and type(column) is not float:
-                raise TypeError
+                raise TypeError("matrix must be a matrix (list of lists) of integers/floats")
     new_matrix = list(map(lambda x : list(map(lambda y : round(y/div, 2),
     x)), matrix))
     return new_matrix
