@@ -4,6 +4,7 @@
 this module contains a fuction that adds two numbers
 """
 
+
 def add_integer(a, b=98):
     """
     this module returns the sum of two integers or floats that
@@ -11,14 +12,12 @@ def add_integer(a, b=98):
 
     Args:
         a: first argument
-	b: second argument
-
+        b: second argument
     Return:
         the sum of the two arguments
-    
     Raises:
         TypeError: if either of the arguments not an integer
-	or float
+        or float
 
     """
 
